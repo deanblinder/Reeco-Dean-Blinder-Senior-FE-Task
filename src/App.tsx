@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Card from './components/Card/index.tsx';
 import Carousel from './components/Carousel/index.tsx';
 import Chip from './components/Chip/index.tsx';
