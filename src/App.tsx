@@ -26,9 +26,9 @@ const App = () => {
 ];
 
   return (
-      <Carousel slideDistance={100}>
-        {/* {items} */}
-        {chips}
+      <Carousel>
+        {items}
+        {/* {chips} */}
       </Carousel>
   );
 }
