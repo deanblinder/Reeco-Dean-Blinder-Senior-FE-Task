@@ -1,4 +1,4 @@
-import React, { Children, FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
+import React, { Children, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 import { useCarousel } from './useCarousel.ts';
 import "./styles.css";
 import CarouselButton from '../CarouselButton/index.tsx';

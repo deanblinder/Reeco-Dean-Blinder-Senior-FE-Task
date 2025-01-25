@@ -13,7 +13,6 @@ const App = () => {
     <Card title='apple' key={6} price={1} image='https://www.shutterstock.com/image-photo/green-red-apples-fruit-bowl-600nw-2320727429.jpg' description='200 gr apples' onAddToCart={() => {}} />,
   ];
 
-
   const chips = [
     <Chip title='alcohol' image='https://cdn-eu.dynamicyield.com/api/9879135/images/2beac5d9aa58d__.png'/>,
     <Chip title='bread' image='https://cdn-eu.dynamicyield.com/api/9879135/images/1b70aa7eb3b55__.png'/>,
