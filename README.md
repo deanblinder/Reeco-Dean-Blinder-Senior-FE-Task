@@ -10,5 +10,7 @@ Generic Carousel is a reusable React component that lets you create a carousel b
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+- clone repository
+- open project
+- npm install
+- npm start
