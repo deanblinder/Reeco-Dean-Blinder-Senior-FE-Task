@@ -8,11 +8,11 @@ type Props = {
   price: number;
   image: string;
   description: string;
-  onAddToCart: () => void;
+  onClick: () => void;
 }
 
 const Card = (props: Props) => {
-    const { title, price, image, description, onAddToCart } = props
+    const { title, price, image, description, onClick } = props
   return (
     <div className="food-card">
       <img 
@@ -24,7 +24,7 @@ const Card = (props: Props) => {
       <p className="food-card_description">{description}</p>
       <div className="food-card_footer">
         <span className="food-card_price">${price.toFixed(2)}</span>
-        <Button onClick={onAddToCart} title={'Add To Cart'}/>
+        <Button onClick={onClick} title={'Add To Cart'}/>
       </div>
     </div>
   );
