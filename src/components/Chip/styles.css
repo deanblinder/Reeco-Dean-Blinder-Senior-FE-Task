@@ -1,0 +1,23 @@
+.bakery-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container {
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 50%; /* Circular shape */
+    display: inline-block; /* Center the circle */
+    padding: 20px; /* Padding around the image */
+}
+
+.bakery-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.bakery-title {
+    font-family: Arial, sans-serif; /* Change font as needed */
+    font-size: 24px; /* Adjust size as needed */
+    margin-top: 10px; /* Space between image and title */
+    color: #000; /* Text color */
+}

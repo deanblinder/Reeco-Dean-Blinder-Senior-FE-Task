@@ -1,0 +1,60 @@
+.carousel-button-prev {
+    left: 10px;
+}
+
+.carousel-button-next {
+    right: 10px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Stack items vertically */
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: row; /* Default to horizontal */
+    max-width: 600px; /* Set a max width for the carousel */
+    width: 100%; /* Full width for responsiveness */
+    
+  }
+  
+  .carousel-content-row {
+    display: flex;
+    flex-direction: row; /* Default to horizontal */
+    transition: transform 0.3s ease-in-out;
+    width: 100%; /* Full width for horizontal layout */
+  }
+
+  .carousel-content-column {
+    display: flex;
+    flex-direction: column; /* Default to horizontal */
+  }
+  
+  .carousel-item {
+    flex: 0 100%; /* Allow items to take their natural height */
+    padding: 16px; /* Adjust padding as needed */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-content-column {
+      flex-direction: column; /* Set to column for vertical scrolling */
+    }
+    .carousel-content-row {
+        flex-direction: column; /* Set to column for vertical scrolling */
+    }
+    .carousel-container{
+        align-items: flex-start;
+    }
+    .carousel-button-prev {
+        display: 'none';
+    }
+    .carousel-button-nex {
+        display: 'none';
+    }
+  }
